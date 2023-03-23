@@ -9,10 +9,11 @@ Extract and transform the crowdfunding.xlsx Excel data to create a category Data
 A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
 
 A "category" column that contains only the category titles
-Export the category DataFrame as category.csv and save it to your GitHub repository.
+Export the<img width="165" alt="category" src="https://user-images.githubusercontent.com/118322641/227386320-78bad39f-84f3-4faf-8b40-77273ea31ecb.png">
+ category DataFrame as category.csv and save it to your GitHub repository.
 
 
-![Alt text](../Screenshot%202023-03-23%20190818.png)
+
 
 
 Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
@@ -22,7 +23,7 @@ A "subcategory_id" column that has entries going sequentially from "subcat1" to 
 A "subcategory" column that contains only the subcategory titles
 Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
 
-![Alt text](../Screenshot%202023-03-23%20190935.png)
+<img width="221" alt="subcategory" src="https://user-images.githubusercontent.com/118322641/227386298-f67107ee-7ede-4241-9c41-a97aedb406fc.png">
 
 
 
@@ -59,11 +60,13 @@ The "category_id" column, with unique identification numbers matching those in t
 The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
-![Alt text](../Screenshot%202023-03-23%20191102.png)
+<img width="683" alt="campaign" src="https://user-images.githubusercontent.com/118322641/227386280-35b136dd-720f-409b-90e8-a0822466fdd2.png">
+
+
 
 Create the Contacts DataFrame
+<img width="389" alt="contacts" src="https://user-images.githubusercontent.com/118322641/227386251-d8d0dc3d-75df-4967-8277-d5b551fbeb78.png">
 
-![Alt text](../Screenshot%202023-03-23%20191220.png)
 
 Choose one of the following two options for extracting and transforming the data from the contacts.xlsx Excel data:
 
