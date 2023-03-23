@@ -11,12 +11,22 @@ A "category_id" column that has entries going sequentially from "cat1" to "catn"
 A "category" column that contains only the category titles
 Export the category DataFrame as category.csv and save it to your GitHub repository.
 
+
+![Alt text](../Screenshot%202023-03-23%20190818.png)
+
+
 Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
 
 A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
 
 A "subcategory" column that contains only the subcategory titles
 Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
+
+![Alt text](../Screenshot%202023-03-23%20190935.png)
+
+
+
+
 Create the Campaign DataFrame
 Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
 
@@ -48,7 +58,13 @@ The "category_id" column, with unique identification numbers matching those in t
 
 The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
+
+![Alt text](../Screenshot%202023-03-23%20191102.png)
+
 Create the Contacts DataFrame
+
+![Alt text](../Screenshot%202023-03-23%20191220.png)
+
 Choose one of the following two options for extracting and transforming the data from the contacts.xlsx Excel data:
 
 Option 1: Use Python dictionary methods.
@@ -91,3 +107,5 @@ Verify the table creation by running a SELECT statement for each table.
 Import each CSV file into its corresponding SQL table.
 
 Verify that each table has the correct data by running a SELECT statement for each.
+
+Create and import the tables in the following order; contacts, category, subcategory and last campaign
